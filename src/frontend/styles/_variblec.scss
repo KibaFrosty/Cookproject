@@ -1,4 +1,16 @@
 //Colors
 $color-blue: #2573bb;
-$color-blue: #000000;
+$color-black: #000000;
+$color-brown: #403C3B;
+$color-white: #FFFFFF;
+$color-green: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+
+@font-face {
+    font-family: "Lato";
+    src: url(/src/frontend/fonts/Lato-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
 
