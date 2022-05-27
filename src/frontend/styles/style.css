@@ -219,7 +219,7 @@ input[type="text"] {
 }
 
 .circle {
-  position: absolute;
+  position: relative;
   width: 24px;
   height: 24px;
   left: 75%;
@@ -236,11 +236,13 @@ input[type="text"] {
 }
 
 .circle__number {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: -0.5px;
-  top: -12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
   font-weight: bold;
 }
 
